@@ -46,8 +46,8 @@ extern "C" {
 // #include "usbh_msc_core.h"
 
 // #include "sd.h"
-#include "Hal/w25qxx.h"
-#include "Hal/buzzer.h"
+#include "HAL/w25qxx.h"
+#include "HAL/buzzer.h"
 
 #include "API/LCD_Encoder.h"
 // #include "ST7920_Simulator.h"

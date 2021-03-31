@@ -27,7 +27,7 @@
 #include "tft_ltdc.h"
 #include "pinconfig.h"
 #include "../ltdc/gt911.h"
-#include "../../../lcd/extui/lib/btt_ui/Hal/w25qxx.h"
+#include "../../../lcd/extui/lib/btt_ui/HAL/w25qxx.h"
 #include "../../../lcd/extui/lib/btt_ui/API/UI/touch_process.h"
 
 uint16_t TFT_LTDC::x_min = 0;
