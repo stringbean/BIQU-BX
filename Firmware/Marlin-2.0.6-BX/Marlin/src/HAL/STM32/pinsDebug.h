@@ -31,8 +31,8 @@
   #else
     #error "M43 not supported for this board"
   #endif
-#elif defined(NUM_DIGITAL_PINS)
-    #include "pinsDebug_STM32duino.h"
+#elif defined(STM32H7)
+    #include "pinsDebug_STM32H7.h"
 #else
   #error "M43 not supported for this board"
 #endif
